@@ -11,5 +11,5 @@ struct point {
     int y;
 };
 
-extern vector vectorAdd(vector a, vector b);
-extern point* pointTranslation(point *p, vector *vec);
+extern vector* vector_add(vector *a, vector *b);
+extern point* point_translation(point *p, vector *vec);
